@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    
+   position: relative;
+    top:170px;
+    height: 63vh;
+    justify-content: center;
+    background-color: white;
+    border: solid 6px black;
+    border-radius: 14px;
+}
+
+
+
+
+.Logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+    animation-name: moteon;
+    animation-duration: 2s;
+    
+    }
+ 
+
+@keyframes moteon{
+    0%{
+        padding-top: 70%;
+    }
+    100%{
+        padding-top: 10%;
+    }
+}
+
+form{
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+input{
+    border: none;
+    display: block;
+    background: transparent;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8vh;
+}
